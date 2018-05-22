@@ -15,14 +15,14 @@
 
 ## 使用环境
 
- 1. **windows** 系统
- 2. 系统安装  [AutoHotKey官方网站][1]
- 3. 自行安装ftp服务器或云盘,挂在云盘或ftp服务为本地盘符
- 
+  1. **windows** 系统
+  2. 系统安装  [AutoHotKey官方网站][1]
+  3. 自行安装ftp服务器或云盘,挂在云盘或ftp服务为本地盘符
+
 ### 步骤
- 
- 1. 打开**ClipMd.ahk** 文件
- 
+
+  1. 打开**ClipMd.ahk** 文件
+
 ```
 #挂载的盘符
 basePath := "Y:/"
@@ -39,7 +39,7 @@ rootPreix:="file:/"
 > 32位系统用 Gdip.ahk
 > 64为系统用 Gdip_All.ahk
 
- 2. 操作
-*前提：运行ClipMd.ahk*
- - Ctrl + F1 : 生成图片链接到指定文件夹
+  2. 操作
+  *前提：运行ClipMd.ahk*
+ - Ctrl + 1 : 生成图片链接到指定文件夹
  - Ctrl + F8 : 退出
